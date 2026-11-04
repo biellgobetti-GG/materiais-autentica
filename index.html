@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo Autêntica</title>
+<meta name="description" content="Material oficial dos produtos do Grupo Autêntica.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+  :root{ --azul:#082744; --dourado:#B78845; --bordo:#71283C; --marfim:#F2EEE6; --cinza:#6E737A; --card:#fff; --borda:rgba(183,136,69,.35); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --marfim:#0a1420; --card:#10202f; --cinza:#9aa3ad; --borda:rgba(183,136,69,.3); } }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{ background:var(--marfim); color:var(--azul); font-family:"Jost","Century Gothic",system-ui,sans-serif; line-height:1.5; padding:40px 16px 64px; }
+  @media (prefers-color-scheme: dark){ body{ color:#e9e4d8; } }
+  .wrap{ max-width:880px; margin:0 auto; }
+  header{ border-bottom:2px solid var(--dourado); padding-bottom:18px; margin-bottom:28px; }
+  .eyebrow{ font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--dourado); font-weight:600; }
+  h1{ font-size:clamp(26px,6vw,34px); margin:8px 0 6px; }
+  .sub{ font-size:14.5px; color:var(--cinza); }
+  .card{ background:var(--card); border:1px solid var(--borda); border-left:4px solid var(--dourado); padding:20px 22px; margin-bottom:16px; }
+  h2{ font-size:20px; color:var(--dourado); }
+  .desc{ font-size:14px; margin-top:6px; }
+  .btn{ display:inline-block; margin-top:14px; background:var(--azul); color:#F2EEE6; text-decoration:none; font-weight:600; font-size:13.5px; letter-spacing:.04em; padding:11px 22px; }
+  @media (prefers-color-scheme: dark){ .btn{ background:var(--dourado); color:#0a1420; } }
+  footer{ margin-top:32px; text-align:center; }
+  footer .q{ font-family:"Cormorant Garamond",Georgia,serif; font-style:italic; font-size:18px; }
+  footer .pil{ font-size:10px; letter-spacing:.26em; text-transform:uppercase; color:var(--dourado); margin-top:8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Grupo Autêntica</div>
+    <h1>Catálogo de Produtos</h1>
+    <div class="sub">Material oficial. Toque em “Abrir material” para ver o PDF.</div>
+  </header>
+
+  <div class="card"><h2>Autêntica Academy</h2><div class="desc">Método MPM 100% online, 1 ano de acesso, com IA e encontros ao vivo semanais.</div><a class="btn" href="Autentica_Academy.pdf">Abrir material ↗</a></div>
+  <div class="card"><h2>Marca e Receita</h2><div class="desc">Imersão presencial de 3 dias (Identidade · Posicionamento · Receita), turma reduzida.</div><a class="btn" href="Marca_e_Receita.pdf">Abrir material ↗</a></div>
+  <div class="card"><h2>Consultoria de Conteúdo</h2><div class="desc">Consultoria individual com Alan Lima: estratégia de conteúdo + Plataforma Autêntica.</div><a class="btn" href="Consultoria_de_Conteudo.pdf">Abrir material ↗</a></div>
+  <div class="card"><h2>Consultoria de Marca</h2><div class="desc">Posicionamento individual (método MPM®): diagnóstico, estratégia, receita e 8 semanas de implementação.</div><a class="btn" href="Consultoria_de_Marca.pdf">Abrir material ↗</a></div>
+  <div class="card"><h2>Autêntica Legacy</h2><div class="desc">Grupo exclusivo de empresários (Mente · Negócios · Amizade), por convite.</div><a class="btn" href="Autentica_Legacy.pdf">Abrir material ↗</a></div>
+
+  <footer>
+    <div class="q">Ser autêntico é a melhor maneira de ser escolhido e bem pago.</div>
+    <div class="pil">Marcas · Legados · Virtudes</div>
+  </footer>
+</div>
+</body>
+</html>
